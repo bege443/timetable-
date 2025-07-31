@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Time Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 80%;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: rgb(90, 116, 192);
+        }
+        span {
+            color: rgb(188, 188, 8);
+        }
+
+        
+    
+    .break-cell {
+        writing-mode: vertical-lr; 
+        transform: rotate(180deg); 
+        text-align: center;
+        vertical-align: middle;
+        font-size: 45px;
+        font-weight: bold;
+        padding: 10px;
+         }
+
+         .cyber {
+                color: darkblue;
+         }
+
+         .data{
+            color: rgb(0, 106, 255);
+         }
+         .M{
+            color: rgba(4, 119, 80, 0.938);
+         }
+         .J{
+            color: brown;
+         }
+         .Nt{
+            color:darkslategrey ;
+         }
+         .CC1{
+            color: burlywood;
+         }
+         .CC2{
+            color: lightgreen;
+         }
+         .CC3{
+            color: crimson;
+         }
+
+
+
+
+    </style>
+</head>
+
+<body>
+
+    <h2 style="text-align: center; transform-style: preserve-3d;">TIME TABLE</h2>
+
+    <table>
+        <tr>
+            <th> </th>
+            <th colspan="2">MORNING CLASS</th>
+            <th>
+
+            </th>
+            <th colspan="2">EVENING CLASS</th>
+
+        </tr>
+
+        <tr>
+            <td><b> Days </b></td>
+            <td> 8:00-10:00</td>
+            <td>10:00-12:00</td>
+            <td> 12:00-2:00</td>
+            <td>2:00-4:00</td>
+            <td>4:00-6:00</td>
+        </tr>
+        <tr>
+            <th> Monday</th>
+            <td> <span class="M"> MSLD </span>/ <span class="P">Python </span>/ <span class="cyber">Cyber <br> Security </span></td>
+            <td> <span class="CC1">CCNA1 </span>/ <span class="yellow">Ethical Hacking </span>/ <span class="J">Java Script </span></td>
+           
+            <th rowspan="5" class="break-cell"> BREAK</th>
+            
+            <td> <span class="data">Data Science </span></td>
+            <td>**</td>
+        </tr>
+        <tr>
+            <th>Tuesday</th>
+            <td> <span class="yellow">Ethical <br> Hacking </span>/CCNA2</td>
+            <td> <span class="CC3">CCNA3 </span>/ <span class="Nt">Network / <br> Security</span>/ <span class="P">Python </span></td>
+            
+            <td> <span IT>IT-Essentials</span>/ <span class="J">Java Script </span></td>
+            <td>**</td>
+        </tr>
+        <tr>
+            <th>Wednesday</th>
+            <td><span class="M"> MSDL </span>/ <span class="cyber">Cyber Security</span>/ <br><span class="Nt"> Network Security</span> </td>
+            <td> <span class="CC1">CCNA1</span>/ <span></span class="CC2">CCNA2 </span>/ <span class="CC3">CCNA3 </span></td>
+            
+            <td> <span class="IT">IT-Essentials</span>/ <span class="data">Data <br> Science </span></td>
+            <td>**</td>
+        </tr>
+        <tr>
+            <th>Thursday</th>
+            <td> <span class="CC2">CCNA2 </span>/ <span class="yellow">Ethical Hacking </span></td>
+            <td> <span class="CC3">CCNA3</span></td>
+            
+            <td> <span class="IT">IT-Essentials</span>/<span class="J"> Java Script</span></td>
+            <td>**</td>
+        </tr>
+        <tr>
+            <th>Friday</th>
+            <td><span class="M"> MSDL </span>/ <span class="P">Python </span>/ <span class="cyber">Cyber <br> Security</span></td>
+            <td> <span class="CC1">CCNA1</span>/ <span class="data">Data <br>Scince </span>/ <span class="Nt">Network <br> Security</span></td>
+            
+            <td>**</td>
+            <td>**</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
